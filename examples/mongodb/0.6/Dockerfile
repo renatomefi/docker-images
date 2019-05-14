@@ -1,6 +1,6 @@
 FROM mongo
 
-MAINTAINER Debezium Community
+LABEL maintainer="Debezium Community"
 
 COPY init-inventory.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/init-inventory.sh

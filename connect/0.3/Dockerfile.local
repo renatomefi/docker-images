@@ -1,6 +1,6 @@
 FROM debezium/connect-base:0.3
 
-MAINTAINER Debezium Community
+LABEL maintainer="Debezium Community"
 
 #
 # Create a single `$KAFKA_CONNECT_PLUGINS_DIR/debezium` directory into which we'll place all of our JARs and files.

@@ -1,6 +1,6 @@
 FROM debezium/connect-base:0.2
 
-MAINTAINER Debezium Community
+LABEL maintainer="Debezium Community"
 
 ENV DEBEZIUM_VERSION=0.2.4 \
     MAVEN_CENTRAL="https://repo1.maven.org/maven2"

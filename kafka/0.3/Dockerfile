@@ -1,6 +1,6 @@
 FROM debezium/jdk8:8u92
 
-MAINTAINER Debezium Community
+LABEL maintainer="Debezium Community"
 
 #
 # Set the version, home directory, and MD5 hash.
